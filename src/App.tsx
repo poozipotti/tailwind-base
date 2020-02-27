@@ -1,25 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col w-3/4 mx-auto my-12 items-center">
+      <h1 className="font-bold text-xl mb-2">TailWind Starter</h1>
+			<p className="text-gray-700 text-base">Base project with typescirpt and tailwind for react</p>
     </div>
+
   );
 }
 
